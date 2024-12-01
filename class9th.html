@@ -1,0 +1,40 @@
+{%extends 'app1/home.html'%}
+{%block body_block%}
+{%load static%}
+<h1>Class 9th :</h1>
+<div class="container">
+    <div class="column" style="background-color:aquamarine;">
+        <p>Class 9th focuses on building fundamental skills across 
+            a broad range of disciplines, including mathematics, science, and language arts, fostering critical thinking and creativity. The curriculum is designed to solidify the basics while introducing more complex topics across core subjects like Mathematics, Science, English, and Social Studies. In Mathematics, students enhance their problem-solving skills with topics such as algebra, geometry, and data analysis. Science covers fundamental concepts in physics, chemistry, and biology, encouraging a hands-on approach through experiments and projects. English focuses on improving reading comprehension, writing skills, and vocabulary, fostering a love for literature and effective communication. Social Studies deepens the understanding of history, geography, and civics, helping students develop a global perspective.Beyond academics, Class 9th places significant emphasis on extracurricular activities, fostering creativity, teamwork, and leadership.</p>
+    </div>
+    <div class="column" >
+        <img src="{% static 'images/class1.jpeg' %}" width="100%">
+    </div>
+      </div>
+</div>
+<h1>Classrooms:</h1>
+<div class="container">
+    <div class="column" >
+        <img src="{% static 'images/class1.jpeg' %}" width="100%">
+    </div>
+    <div class="column" >
+        <img src="{% static 'images/class2.jpeg' %}" width="100%">
+    </div>
+    <div class="column" >
+        <img src="{% static 'images/class3.jpeg' %}" width="100%">
+    </div>
+    <div class="column" >
+        <img src="{% static 'images/class4.jpeg' %}" width="100%">
+    </div>
+</div>
+<p>
+<center><h2>Still hunting for a Job? </h2></center>
+<div class="container">
+<div class="column" style="background-color:beige;" width="75%">
+    <center><p>Job requirements outline the essential skills, qualifications, and experience needed for a candidate to succeed in a specific role. They typically include educational background, technical skills, relevant work experience, and sometimes specific certifications. Additionally, job requirements may highlight soft skills such as communication, teamwork, and problem-solving abilities, as well as physical or availability requirements, like the ability to work certain hours or travel if necessary. Clearly defined job requirements help employers attract qualified candidates and set clear expectations for the role.</center></p>
+
+    <button style="background-color: yellow;"> Register</button>
+</div>
+</div>
+</p>
+{%endblock%}
